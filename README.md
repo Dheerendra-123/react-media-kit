@@ -1,4 +1,4 @@
-# react-advanced-media
+# react-media-query-kit
 
 A lightweight and powerful React hook-based utility for responsive design. Easily detect screen types like mobile, tablet, desktop, large desktop, and TV without writing manual media queries or complex CSS logic.
 
@@ -13,11 +13,11 @@ A lightweight and powerful React hook-based utility for responsive design. Easil
 ## Installation
 
 ```bash
-npm install react-advanced-media
+npm install react-media-query-kit
 ```
 
 ```bash
-yarn add react-advanced-media
+yarn add react-media-query-kit
 ```
 
 ## Usage
