@@ -1,6 +1,6 @@
 {
   "name": "react-media-query-kit",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "React hook and component utility to detect mobile, tablet, desktop, large desktop and TV screen sizes.",
   "main": "src/index.js",
   "exports": {
