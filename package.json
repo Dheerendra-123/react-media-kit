@@ -1,5 +1,5 @@
 {
-  "name": "react-media-kit",
+  "name": "react-media",
   "version": "1.0.0",
   "description": "React hook and component utility to detect mobile, tablet, desktop, large desktop and TV screen sizes.",
   "main": "src/index.js",
