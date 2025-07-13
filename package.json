@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "React hook and component utility to detect mobile, tablet, desktop, large desktop and TV screen sizes.",
   "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "type": "module",
+  "files": [
+    "src"
+  ],
   "keywords": [
     "react",
     "media-query",
@@ -19,6 +26,11 @@
     "url": "https://github.com/Dheerendra-123/react-media-kit.git"
   },
   "peerDependencies": {
-    "react": "^17.0.0 || ^18.0.0 ||^19.0.0"
+    "react": "^17.0.0 || ^18.0.0 || ^19.0.0"
+  },
+  "scripts": {
+    "test": "echo \"No tests yet\"",
+    "build": "echo \"No build step required\"",
+    "prepublishOnly": "npm run test"
   }
 }
