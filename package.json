@@ -1,6 +1,6 @@
 {
   "name": "@dheerendra123/react-device-kit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React hook and component utility to detect mobile, tablet, desktop, large desktop and TV screen sizes.",
   "main": "src/index.js",
   "exports": {
