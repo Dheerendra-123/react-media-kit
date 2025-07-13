@@ -1,0 +1,9 @@
+# Don't publish the following:
+node_modules/
+src/__tests__/
+.vscode/
+.git/
+.gitignore
+README.md
+LICENSE
+*.log

@@ -1,0 +1,24 @@
+{
+  "name": "react-media-kit",
+  "version": "1.0.0",
+  "description": "React hook and component utility to detect mobile, tablet, desktop, large desktop and TV screen sizes.",
+  "main": "src/index.js",
+  "keywords": [
+    "react",
+    "media-query",
+    "responsive",
+    "device-detection",
+    "hooks",
+    "media",
+    "breakpoints"
+  ],
+  "author": "Dheerendra Vikram Dixit",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dheerendra-123/react-media-kit.git"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0 ||^19.0.0"
+  }
+}
