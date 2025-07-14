@@ -1,14 +1,12 @@
-// build.js
 import { build } from 'esbuild';
 
 build({
-  entryPoints: ['src/index.js'],    // Entry to your package
-  outfile: 'dist/index.js',         // Single bundled file
-  bundle: true,                     // ✅ Bundle all internal files
-  format: 'esm',                    // ES module format
-  platform: 'browser',              // For React/browser usage
-  loader: { '.js': 'jsx' },         // Support JSX inside .js files
-  target: ['es2017'],               // Reasonable target for modern browsers
-  sourcemap: false,
-  minify: false
+  entryPoints: ['src/index.js'],
+  outfile: 'dist/index.js',
+  bundle: true,
+  format: 'esm',
+  platform: 'browser',
+  external: ['react'],  // 👈 Tells esbuild NOT to bundle react
+  loader: { '.js': 'jsx' },
+  target: ['es2017']
 }).catch(() => process.exit(1));
