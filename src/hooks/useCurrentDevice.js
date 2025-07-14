@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { getDevice } from '../breakpoints';
+import { getDevice } from '../breakpoint';
 
 export const useCurrentDevice = () => {
   const [device, setDevice] = useState(getDevice(window.innerWidth));
