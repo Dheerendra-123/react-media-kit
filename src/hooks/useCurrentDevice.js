@@ -10,5 +10,5 @@ export const useCurrentDevice = () => {
     return () => window.removeEventListener('resize', onResize);
   }, []);
 
-  return device; // returns: "mobile", "tablet", etc.
+  return device;
 };
