@@ -14,6 +14,7 @@ export const useMedia = () => {
   }, []);
 
   useEffect(() => {
+    // Set initial device on mount (handles hydration)
     setDevice(getDevice(window.innerWidth));
     
     let timeoutId;
@@ -23,6 +24,7 @@ export const useMedia = () => {
     };
     
     window.addEventListener('resize', debouncedResize);
+    
     return () => {
       window.removeEventListener('resize', debouncedResize);
       clearTimeout(timeoutId);
@@ -33,7 +35,7 @@ export const useMedia = () => {
     device,
     isMobile: device === 'mobile',
     isTablet: device === 'tablet',
-    isLaptop:device==='laptop',
+    isLaptop: device === 'laptop',
     isDesktop: device === 'desktop',
     isLargeDesktop: device === 'largeDesktop',
     isTV: device === 'tv',
